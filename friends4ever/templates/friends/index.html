@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FRIENDS4EVER</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'friends/index.css' %}"
+
+</head>
+	<body>
+		<div class = "container" >
+			<div class="upper">
+				<header>
+					<h1>FRIENDS 4 EVER</h1>
+				</header>
+					<nav class="site-nav">
+					<ul class="group">
+						<li ><a href="{% url 'friends:slide' %}">Slide Show</a></li>
+						<li ><a href="{% url 'logout' %}">Sign out</a></li>
+
+
+					</ul>
+
+			</div>
+
+			<img src="{% static 'friends/images/base.jpg' %}" alt= "error" >
+
+
+
+
+
+
+
+
+		</div>
+	</body>
+	</div>
+	</html>

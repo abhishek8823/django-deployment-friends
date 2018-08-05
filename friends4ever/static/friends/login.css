@@ -1,0 +1,18 @@
+body {
+    background-image: url("images/login_img.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.box
+{
+text-align: center;
+background-color: lightGray;
+padding: 30px;
+border: 3px solid black;
+width: 300px;
+height: 300px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+}
